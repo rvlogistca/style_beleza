@@ -1,0 +1,16 @@
+{
+  "name": "agendapro",
+  "version": "1.0.0",
+  "description": "AgendaPro — Gestão de Salão de Beleza",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/android": "^6.1.2"
+  }
+}
